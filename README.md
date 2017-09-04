@@ -12,7 +12,7 @@ We know that usually it is not good to keep reading and writing operations on th
     R = read.R + close.P
     W = write.W + close.P
     
-> some image
+![Representing states P, R and W](images/twostates.png)
 
 Now we want to hide all the open and close operations, and hence we want to define an object, that is a State Machine, that keeps track of all the object states and then "smartly decides" which operations have to be carried out in order to reach the desired operation to execute.
 
