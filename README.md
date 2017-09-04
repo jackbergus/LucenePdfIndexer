@@ -4,7 +4,7 @@ If we want to model an access to a resource that could not be read and written a
 
      P = read.P + write.P
      
-> some image
+![P = read.P + write.P](images/Diagramma1.png)
 
 We know that usually it is not good to keep reading and writing operations on the same object, and hence we have always to close and re-open the object if we want to change the type of the operation. As a consequence we have to handle three objects at a time, an initial state (```P```), an opened state for reading purposes (```R```) and another one for writing (```W```). This could be easily modelled as follows
 
