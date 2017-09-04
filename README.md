@@ -24,7 +24,7 @@ Now we want to hide all the open and close operations, and hence we want to defi
      
      (v (OpenRead,OpenWrite,close)) ( ClosedObject | ReadableObject | WritableObjeect)
 
-> some image
+![Representing the synchronized states](images/complete.png)
 
 We could easily see that this implementation corresponds to the first tone, that is the model that we want to reach.
 
